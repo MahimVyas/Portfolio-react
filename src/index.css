@@ -60,8 +60,8 @@ body {
 .text-accent { color: var(--accent-color); }
 .text-accent-secondary { color: var(--accent-secondary); }
 
-/* Hide default cursor on desktop */
-@media (min-width: 768px) {
+/* Hide default cursor on desktop only */
+@media (min-width: 768px) and (hover: hover) {
   body, a, button, input, select, textarea, [role="button"] {
     cursor: none !important;
   }

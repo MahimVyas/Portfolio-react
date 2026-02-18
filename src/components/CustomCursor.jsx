@@ -6,10 +6,10 @@ const CustomCursor = () => {
   const [isHovering, setIsHovering] = useState(false);
 
   useEffect(() => {
-    // Check if device has a fine pointer (mouse)
-    // We remove the strict matchMedia check to ensure it renders on all potential desktop environments
-    // but keep the CSS hiding for touch devices
-    
+    // Check if device is touch-enabled
+    const isTouchDevice = window.matchMedia('(pointer: coarse)').matches;
+    if (isTouchDevice) return;
+
     // Use refs to store mutable values to avoid closure staleness without re-running effect
     const position = {
       mouseX: -100, // Start off-screen
