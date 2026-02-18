@@ -75,6 +75,7 @@ const CustomCursor = () => {
       <div 
         ref={cursorRef}
         className="fixed top-0 left-0 w-2 h-2 bg-cyan-400 rounded-full pointer-events-none z-[9999] mix-blend-difference -translate-x-1/2 -translate-y-1/2 hidden md:block will-change-transform"
+        style={{ transform: 'translate3d(-100px, -100px, 0)' }}
       />
       
       {/* Trailing circle - follows smoothly */}
@@ -83,6 +84,7 @@ const CustomCursor = () => {
         className={`fixed top-0 left-0 w-8 h-8 border border-cyan-500/50 rounded-full pointer-events-none z-[9998] -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-out hidden md:block will-change-transform ${
           isHovering ? 'scale-[2.5] bg-cyan-500/10 border-cyan-400 mix-blend-screen' : 'scale-100 bg-transparent'
         }`}
+        style={{ transform: 'translate3d(-100px, -100px, 0)' }}
       />
     </>
   );

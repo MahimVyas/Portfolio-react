@@ -61,7 +61,7 @@ body {
 .text-accent-secondary { color: var(--accent-secondary); }
 
 /* Hide default cursor on desktop */
-@media (pointer: fine) {
+@media (min-width: 768px) {
   body, a, button, input, select, textarea, [role="button"] {
     cursor: none !important;
   }
