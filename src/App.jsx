@@ -201,7 +201,7 @@ function App() {
                   
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {portfolioData.interests.map((interest) => (
-                      <div key={interest.id} className="group p-6 rounded-2xl border border-slate-200 dark:border-gray-800 bg-white dark:bg-[#111] hover:border-cyan-500/50 transition-all duration-300 hover:-translate-y-1">
+                      <div key={interest.id} className="group p-6 rounded-2xl glass-card hover:border-cyan-500/50 transition-all duration-300 hover:-translate-y-1">
                         <h4 className="text-lg font-bold text-primary font-mono mb-3 group-hover:text-accent transition-colors">
                           {interest.title}
                         </h4>
