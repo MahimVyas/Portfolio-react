@@ -13,6 +13,7 @@ import {
   Globe
 } from 'lucide-react';
 import showlabImg from './assets/Showlab.png';
+import livoraImg from './assets/Livora.png';
 
 export const portfolioData = {
   personalInfo: {
@@ -101,7 +102,7 @@ export const portfolioData = {
       title: "Livora",
       link: "https://mahimvyas.github.io/Livora/",
       github: "https://github.com/MahimVyas/Livora",
-      image: "https://private-user-images.githubusercontent.com/152497367/426549561-34f90a74-531c-49d1-87d5-7e5c0b8d7df5.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzE0MjI2NzUsIm5iZiI6MTc3MTQyMjM3NSwicGF0aCI6Ii8xNTI0OTczNjcvNDI2NTQ5NTYxLTM0ZjkwYTc0LTUzMWMtNDlkMS04N2Q1LTdlNWMwYjhkN2RmNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIxOFQxMzQ2MTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZWNiODAxNzczZmM1NDBlMDQ2OTZkYTJiOTQ0YmI2NzYwMTc5M2RlNzcwOWYwYjBhZWZiNDlkNjEyOWZiZmI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9._E5C6OZJKS6gONqdvb2Sk2iLFUpvsDN7mHFUF1bm6Uc",
+      image: "livoraImg",
       tech: ["Firebase", "JavaScript", "CSS", "HTML"],
       description: "A comprehensive platform connecting students with hostel owners. Features include user authentication, real-time booking, and an admin dashboard for property management."
     },

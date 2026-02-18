@@ -7,15 +7,15 @@ const CustomCursor = () => {
 
   useEffect(() => {
     // Check if device has a fine pointer (mouse)
-    const isFinePointer = window.matchMedia('(pointer: fine)').matches;
-    if (!isFinePointer) return;
-
+    // We remove the strict matchMedia check to ensure it renders on all potential desktop environments
+    // but keep the CSS hiding for touch devices
+    
     // Use refs to store mutable values to avoid closure staleness without re-running effect
     const position = {
-      mouseX: 0,
-      mouseY: 0,
-      followerX: 0,
-      followerY: 0
+      mouseX: -100, // Start off-screen
+      mouseY: -100,
+      followerX: -100,
+      followerY: -100
     };
     
     let animationFrameId;
