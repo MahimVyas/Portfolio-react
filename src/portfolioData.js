@@ -13,7 +13,7 @@ import {
   Globe
 } from 'lucide-react';
 import showlabImg from './assets/Showlab.png';
-import livoraImg from './assets/Livora.png';
+import livoraImg from './assets/livora.png';
 
 export const portfolioData = {
   personalInfo: {
