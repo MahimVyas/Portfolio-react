@@ -102,7 +102,7 @@ export const portfolioData = {
       title: "Livora",
       link: "https://mahimvyas.github.io/Livora/",
       github: "https://github.com/MahimVyas/Livora",
-      image: "livoraImg",
+      image: livoraImg,
       tech: ["Firebase", "JavaScript", "CSS", "HTML"],
       description: "A comprehensive platform connecting students with hostel owners. Features include user authentication, real-time booking, and an admin dashboard for property management."
     },
