@@ -25,7 +25,7 @@ import {
 function App() {
   return (
     <div className="min-h-screen text-primary font-sans selection:bg-cyan-500/30 selection:text-cyan-200 transition-colors duration-300">
-      <CustomCursor />
+      {/* <CustomCursor /> */}
       
       {/* Theme Toggle Button */}
       <div className="fixed top-6 right-6 z-50">
